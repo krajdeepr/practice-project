@@ -1,0 +1,33 @@
+form button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  form .error {
+    font-style: italic;
+    color: red;
+  }
+  
+  form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  
+  form .form-group.row {
+    flex-direction: row;
+  }
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
