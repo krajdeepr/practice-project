@@ -41,7 +41,7 @@ export class DynamicFormComponent implements OnInit {
       this.param_key.push(par);
       this.param_value.push(this.formObj[0][par])
     }
-       this.param_key.forEach(formControl => {
+       this.param_value.forEach(formControl => {
         this.formGroup[formControl] = new FormControl("");
     })
     this.form = new FormGroup(this.formGroup);
